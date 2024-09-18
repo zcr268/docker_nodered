@@ -1,5 +1,4 @@
 FROM nodered/node-red
 USER root
-RUN apk add ffmpeg && \
-            rm -r /tmp/*
+RUN apk add ffmpeg
 USER node-red
