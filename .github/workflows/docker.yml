@@ -1,6 +1,6 @@
 name: docker
 
-on: [push, pull_request, orkflow_dispatch]
+on: [push, pull_request, workflow_dispatch]
 
 env:
   IMAGE_TAG: ${{ github.repository }}:${{ github.ref_name }}
