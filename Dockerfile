@@ -1,3 +1,3 @@
 FROM nodered/node-red
 
-RUN apk add ffmpeg
+RUN sudo apk add ffmpeg
